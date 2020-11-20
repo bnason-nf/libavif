@@ -1,0 +1,99 @@
+[apps/avifenc.c:728]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[apps/avifenc.c:806]: (warning) %u in format string (no. 2) requires 'unsigned int' but the argument type is 'signed int'.
+[apps/shared/iccjpeg.c:58]: (style) The scope of the variable 'length' can be reduced.
+[apps/shared/y4m.c:315]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
+[src/read.c:1095]: (style) The scope of the variable 'indexSize' can be reduced.
+[src/reformat.c:454]: (warning) Suspicious code: sign conversion of -1 in calculation because '-1' has a negative value
+[src/reformat.c:455]: (warning) Suspicious code: sign conversion of -1 in calculation because '-1' has a negative value
+[tests/avifyuv.c:147]: (warning) %d in format string (no. 3) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:147]: (warning) %d in format string (no. 4) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:226]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:226]: (warning) %d in format string (no. 2) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:332]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:332]: (warning) %d in format string (no. 3) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:332]: (warning) %d in format string (no. 5) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:332]: (warning) %d in format string (no. 6) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:356]: (warning) %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:356]: (warning) %d in format string (no. 3) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:356]: (warning) %d in format string (no. 5) requires 'int' but the argument type is 'unsigned int'.
+[tests/avifyuv.c:356]: (warning) %d in format string (no. 6) requires 'int' but the argument type is 'unsigned int'.
+[tests/cJSON.c:0]: (information) Too many #ifdef configurations - cppcheck only checks 12 of 13 configurations. Use --force to check all configurations.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:769]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:770]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:775]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:784]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:799]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:805]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:806]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:876]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:877]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1044] -> [tests/cJSON.c:1049]: (warning) Either the condition 'buffer!=NULL' is redundant or there is possible null pointer dereference: buffer.
+[tests/cJSON.c:1454] -> [tests/cJSON.c:1440]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1454] -> [tests/cJSON.c:1444]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1454] -> [tests/cJSON.c:1446]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1454] -> [tests/cJSON.c:1452]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1461] -> [tests/cJSON.c:1463]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1602] -> [tests/cJSON.c:1596]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1602] -> [tests/cJSON.c:1600]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1609] -> [tests/cJSON.c:1607]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1615] -> [tests/cJSON.c:1617]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/cJSON.c:1660] -> [tests/cJSON.c:1648]: (warning) Either the condition 'input_buffer!=NULL' is redundant or there is possible null pointer dereference: input_buffer.
+[tests/oss-fuzz/avif_decode_fuzzer.cc:9]: (style) The scope of the variable 'rgbFormatsCount' can be reduced.
+[tests/oss-fuzz/avif_decode_fuzzer.cc:12]: (style) The scope of the variable 'upsamplingsCount' can be reduced.
+[tests/oss-fuzz/avif_decode_fuzzer.cc:15]: (style) The scope of the variable 'rgbDepthsCount' can be reduced.
+[tests/oss-fuzz/avif_decode_fuzzer.cc:18]: (style) The scope of the variable 'yuvDepthsCount' can be reduced.
+[tests/oss-fuzz/avif_decode_fuzzer.cc:6]: (style) The function 'LLVMFuzzerTestOneInput' is never used.
+[src/utils.c:114]: (style) The function 'avifArrayPush' is never used.
+[src/colr.c:55]: (style) The function 'avifColorPrimariesFind' is never used.
+[src/read.c:3046]: (style) The function 'avifDecoderNthImage' is never used.
+[src/read.c:3132]: (style) The function 'avifDecoderReadMemory' is never used.
+[src/read.c:2259]: (style) The function 'avifDecoderSetSource' is never used.
+[src/stream.c:33]: (style) The function 'avifROStreamOffset' is never used.
+[src/stream.c:38]: (style) The function 'avifROStreamSetOffset' is never used.
+[tests/cJSON.c:2170]: (style) The function 'cJSON_AddArrayToObject' is never used.
+[tests/cJSON.c:2098]: (style) The function 'cJSON_AddFalseToObject' is never used.
+[tests/cJSON.c:2054]: (style) The function 'cJSON_AddItemReferenceToArray' is never used.
+[tests/cJSON.c:2064]: (style) The function 'cJSON_AddItemReferenceToObject' is never used.
+[tests/cJSON.c:2043]: (style) The function 'cJSON_AddItemToObject' is never used.
+[tests/cJSON.c:2049]: (style) The function 'cJSON_AddItemToObjectCS' is never used.
+[tests/cJSON.c:2074]: (style) The function 'cJSON_AddNullToObject' is never used.
+[tests/cJSON.c:2158]: (style) The function 'cJSON_AddObjectToObject' is never used.
+[tests/cJSON.c:2146]: (style) The function 'cJSON_AddRawToObject' is never used.
+[tests/cJSON.c:2086]: (style) The function 'cJSON_AddTrueToObject' is never used.
+[tests/cJSON.c:2471]: (style) The function 'cJSON_CreateArrayReference' is never used.
+[tests/cJSON.c:2592]: (style) The function 'cJSON_CreateDoubleArray' is never used.
+[tests/cJSON.c:2556]: (style) The function 'cJSON_CreateFloatArray' is never used.
+[tests/cJSON.c:2521]: (style) The function 'cJSON_CreateIntArray' is never used.
+[tests/cJSON.c:2460]: (style) The function 'cJSON_CreateObjectReference' is never used.
+[tests/cJSON.c:2628]: (style) The function 'cJSON_CreateStringArray' is never used.
+[tests/cJSON.c:2448]: (style) The function 'cJSON_CreateStringReference' is never used.
+[tests/cJSON.c:2222]: (style) The function 'cJSON_DeleteItemFromArray' is never used.
+[tests/cJSON.c:2241]: (style) The function 'cJSON_DeleteItemFromObject' is never used.
+[tests/cJSON.c:2246]: (style) The function 'cJSON_DeleteItemFromObjectCaseSensitive' is never used.
+[tests/cJSON.c:1856]: (style) The function 'cJSON_GetArrayItem' is never used.
+[tests/cJSON.c:1814]: (style) The function 'cJSON_GetArraySize' is never used.
+[tests/cJSON.c:90]: (style) The function 'cJSON_GetErrorPtr' is never used.
+[tests/cJSON.c:105]: (style) The function 'cJSON_GetNumberValue' is never used.
+[tests/cJSON.c:95]: (style) The function 'cJSON_GetStringValue' is never used.
+[tests/cJSON.c:1908]: (style) The function 'cJSON_HasObjectItem' is never used.
+[tests/cJSON.c:205]: (style) The function 'cJSON_InitHooks' is never used.
+[tests/cJSON.c:2252]: (style) The function 'cJSON_InsertItemInArray' is never used.
+[tests/cJSON.c:2851]: (style) The function 'cJSON_IsFalse' is never used.
+[tests/cJSON.c:2881]: (style) The function 'cJSON_IsNull' is never used.
+[tests/cJSON.c:2931]: (style) The function 'cJSON_IsRaw' is never used.
+[tests/cJSON.c:2861]: (style) The function 'cJSON_IsTrue' is never used.
+[tests/cJSON.c:2793]: (style) The function 'cJSON_Minify' is never used.
+[tests/cJSON.c:1174]: (style) The function 'cJSON_ParseWithLength' is never used.
+[tests/cJSON.c:1246]: (style) The function 'cJSON_Print' is never used.
+[tests/cJSON.c:1256]: (style) The function 'cJSON_PrintBuffered' is never used.
+[tests/cJSON.c:1286]: (style) The function 'cJSON_PrintPreallocated' is never used.
+[tests/cJSON.c:2322]: (style) The function 'cJSON_ReplaceItemInArray' is never used.
+[tests/cJSON.c:2350]: (style) The function 'cJSON_ReplaceItemInObject' is never used.
+[tests/cJSON.c:2355]: (style) The function 'cJSON_ReplaceItemInObjectCaseSensitive' is never used.
+[tests/cJSON.c:378]: (style) The function 'cJSON_SetNumberHelper' is never used.
+[tests/cJSON.c:396]: (style) The function 'cJSON_SetValuestring' is never used.
+[tests/cJSON.c:120]: (style) The function 'cJSON_Version' is never used.
+[tests/cJSON.c:3066]: (style) The function 'cJSON_malloc' is never used.
+[contrib/gdk-pixbuf/loader.c:499]: (style) The function 'fill_info' is never used.
+[contrib/gdk-pixbuf/loader.c:490]: (style) The function 'fill_vtable' is never used.
+(information) Cppcheck cannot find all the include files (use --check-config for details)
